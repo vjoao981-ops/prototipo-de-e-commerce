@@ -1,0 +1,404 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Computador Nvidia",
+            "preco": 7850.9,
+            "categoria": "Hardware",
+            "descricao": "Computador Nvidia de alto desempenho para jogos e tarefas intensivas, com IA integrada e design moderno.",
+            "marca": "Nvidia",
+            "imagem": "caminho/para/imagem/computador_nvidia.jpg",
+            "destaque": true
+        },
+        {
+            "id": 2,
+            "nome": "Notebook Acer Nitro V5",
+            "preco": 4500.0,
+            "categoria": "Hardware",
+            "descricao": "Notebook Acer Nitro V5 com processador Ryzen 7 e GPU RTX 3080.",
+            "marca": "Acer",
+            "imagem": "caminho/para/imagem/notebook_acer_nitro_v5.jpg",
+            "destaque": true
+        },
+        {
+            "id": 3,
+            "nome": "Headphones Apple Pro Tempest",
+            "preco": 250.4,
+            "categoria": "Periféricos",
+            "descricao": "Headphones Apple Pro Tempest com tecnologia de cancelamento de ruído e som de alta qualidade.",
+            "marca": "Apple",
+            "imagem": "caminho/para/imagem/headphone_apple_pro_tempest.jpg",
+            "destaque": true
+        },
+        {
+            "id": 4,
+            "nome": "Mouse ParaModels Gamer",
+            "preco": 120.0,
+            "categoria": "Periféricos",
+            "descricao": "Mouse ParaModels Gamer com alta precisão e design ergonômico para longas sessões de jogo.",
+            "marca": "ParaModels",
+            "imagem": "caminho/para/imagem/mouse_paramodels.jpg",
+            "destaque": false
+        },
+        {
+            "id": 5,
+            "nome": "Teclado Errante Comunicador",
+            "preco": 300.0,
+            "categoria": "Periféricos",
+            "descricao": "Teclado Errante Comunicador com teclas mecânicas e iluminação RGB.",
+            "marca": "Errante",
+            "imagem": "caminho/para/imagem/teclado_errante_comunicador.jpg",
+            "destaque": false
+        },
+        {
+            "id": 6,
+            "nome": "Placa de Vídeo Vortex RTX 4070 12GB",
+            "preco": 3899.9,
+            "categoria": "Hardware",
+            "descricao": "Placa de vídeo com 12GB de memória, ideal para jogos em alta resolução e renderização.",
+            "marca": "Vortex",
+            "imagem": "caminho/para/imagem/placa_de_video_vortex_rtx_4070_12gb.jpg",
+            "destaque": false
+        },
+        {
+            "id": 7,
+            "nome": "Processador Zenith X8 3.8GHz",
+            "preco": 1599.0,
+            "categoria": "Hardware",
+            "descricao": "Processador de 8 núcleos e 16 threads para jogos, edição e multitarefa.",
+            "marca": "Zenith",
+            "imagem": "caminho/para/imagem/processador_zenith_x8_3_8ghz.jpg",
+            "destaque": false
+        },
+        {
+            "id": 8,
+            "nome": "Placa-Mãe Atlas B650",
+            "preco": 1190.0,
+            "categoria": "Hardware",
+            "descricao": "Placa-mãe com suporte a memória DDR5, slot NVMe e Wi-Fi integrado.",
+            "marca": "Atlas",
+            "imagem": "caminho/para/imagem/placa_mae_atlas_b650.jpg",
+            "destaque": false
+        },
+        {
+            "id": 9,
+            "nome": "Memória RAM Quantum 16GB DDR5",
+            "preco": 389.9,
+            "categoria": "Hardware",
+            "descricao": "Módulo de memória DDR5 de 5600MHz com dissipador de calor.",
+            "marca": "Quantum",
+            "imagem": "caminho/para/imagem/memoria_ram_quantum_16gb_ddr5.jpg",
+            "destaque": false
+        },
+        {
+            "id": 10,
+            "nome": "SSD NVMe Quantum 1TB",
+            "preco": 459.0,
+            "categoria": "Hardware",
+            "descricao": "SSD NVMe com leitura de até 3.500MB/s para inicialização e carregamento rápidos.",
+            "marca": "Quantum",
+            "imagem": "caminho/para/imagem/ssd_nvme_quantum_1tb.jpg",
+            "destaque": false
+        },
+        {
+            "id": 11,
+            "nome": "HD Externo Atlas 2TB",
+            "preco": 389.0,
+            "categoria": "Hardware",
+            "descricao": "HD externo portátil de 2TB com conexão USB 3.0 e carcaça resistente a impactos.",
+            "marca": "Atlas",
+            "imagem": "caminho/para/imagem/hd_externo_atlas_2tb.jpg",
+            "destaque": false
+        },
+        {
+            "id": 12,
+            "nome": "Fonte Titan 750W 80 Plus Gold",
+            "preco": 549.9,
+            "categoria": "Hardware",
+            "descricao": "Fonte modular de 750W com certificação 80 Plus Gold e alta eficiência energética.",
+            "marca": "Titan",
+            "imagem": "caminho/para/imagem/fonte_titan_750w_80_plus_gold.jpg",
+            "destaque": false
+        },
+        {
+            "id": 13,
+            "nome": "Gabinete Gamer Titan Aurora",
+            "preco": 429.0,
+            "categoria": "Hardware",
+            "descricao": "Gabinete mid tower com lateral de vidro temperado e três ventoinhas ARGB.",
+            "marca": "Titan",
+            "imagem": "caminho/para/imagem/gabinete_gamer_titan_aurora.jpg",
+            "destaque": false
+        },
+        {
+            "id": 14,
+            "nome": "Water Cooler Frost 240mm",
+            "preco": 479.0,
+            "categoria": "Hardware",
+            "descricao": "Refrigeração líquida de 240mm com baixo ruído e iluminação ARGB.",
+            "marca": "Frost",
+            "imagem": "caminho/para/imagem/water_cooler_frost_240mm.jpg",
+            "destaque": false
+        },
+        {
+            "id": 15,
+            "nome": "Notebook Zenith Ultra 14",
+            "preco": 5299.0,
+            "categoria": "Hardware",
+            "descricao": "Notebook ultrafino de 14 polegadas com 16GB de RAM e bateria de longa duração.",
+            "marca": "Zenith",
+            "imagem": "caminho/para/imagem/notebook_zenith_ultra_14.jpg",
+            "destaque": false
+        },
+        {
+            "id": 16,
+            "nome": "Mouse Sem Fio Nimbus Ergo",
+            "preco": 189.9,
+            "categoria": "Periféricos",
+            "descricao": "Mouse ergonômico sem fio com sensor de 4000 DPI e bateria de até 60 dias.",
+            "marca": "Nimbus",
+            "imagem": "caminho/para/imagem/mouse_sem_fio_nimbus_ergo.jpg",
+            "destaque": false
+        },
+        {
+            "id": 17,
+            "nome": "Teclado Mecânico Nimbus K87",
+            "preco": 349.9,
+            "categoria": "Periféricos",
+            "descricao": "Teclado mecânico compacto sem teclado numérico, com switches lineares.",
+            "marca": "Nimbus",
+            "imagem": "caminho/para/imagem/teclado_mecanico_nimbus_k87.jpg",
+            "destaque": false
+        },
+        {
+            "id": 18,
+            "nome": "Headset Gamer Eclipse 7.1",
+            "preco": 279.0,
+            "categoria": "Periféricos",
+            "descricao": "Headset com som surround 7.1 virtual, microfone removível e almofadas macias.",
+            "marca": "Eclipse",
+            "imagem": "caminho/para/imagem/headset_gamer_eclipse_7_1.jpg",
+            "destaque": false
+        },
+        {
+            "id": 19,
+            "nome": "Webcam Full HD Lumen",
+            "preco": 219.9,
+            "categoria": "Periféricos",
+            "descricao": "Webcam 1080p com foco automático e microfone duplo com redução de ruído.",
+            "marca": "Lumen",
+            "imagem": "caminho/para/imagem/webcam_full_hd_lumen.jpg",
+            "destaque": false
+        },
+        {
+            "id": 20,
+            "nome": "Mousepad Extended Eclipse",
+            "preco": 79.9,
+            "categoria": "Periféricos",
+            "descricao": "Mousepad grande de 90x40cm com base antiderrapante e bordas costuradas.",
+            "marca": "Eclipse",
+            "imagem": "caminho/para/imagem/mousepad_extended_eclipse.jpg",
+            "destaque": false
+        },
+        {
+            "id": 21,
+            "nome": "Microfone Condensador Lumen USB",
+            "preco": 329.0,
+            "categoria": "Periféricos",
+            "descricao": "Microfone USB cardioide para streaming, podcasts e reuniões.",
+            "marca": "Lumen",
+            "imagem": "caminho/para/imagem/microfone_condensador_lumen_usb.jpg",
+            "destaque": false
+        },
+        {
+            "id": 22,
+            "nome": "Controle Sem Fio Orbit",
+            "preco": 249.9,
+            "categoria": "Periféricos",
+            "descricao": "Controle sem fio compatível com PC e consoles, com vibração e bateria recarregável.",
+            "marca": "Orbit",
+            "imagem": "caminho/para/imagem/controle_sem_fio_orbit.jpg",
+            "destaque": false
+        },
+        {
+            "id": 23,
+            "nome": "Hub USB-C Orbit 7 em 1",
+            "preco": 199.0,
+            "categoria": "Periféricos",
+            "descricao": "Hub com HDMI 4K, três portas USB, leitor de cartões e carregamento passthrough.",
+            "marca": "Orbit",
+            "imagem": "caminho/para/imagem/hub_usb_c_orbit_7_em_1.jpg",
+            "destaque": false
+        },
+        {
+            "id": 24,
+            "nome": "Suporte para Notebook Nimbus Alumínio",
+            "preco": 139.9,
+            "categoria": "Periféricos",
+            "descricao": "Suporte dobrável de alumínio com altura ajustável para melhorar a postura.",
+            "marca": "Nimbus",
+            "imagem": "caminho/para/imagem/suporte_para_notebook_nimbus_aluminio.jpg",
+            "destaque": false
+        },
+        {
+            "id": 25,
+            "nome": "Caixa de Som Bluetooth Eclipse Boom",
+            "preco": 299.0,
+            "categoria": "Periféricos",
+            "descricao": "Caixa de som portátil com resistência à água e até 12 horas de bateria.",
+            "marca": "Eclipse",
+            "imagem": "caminho/para/imagem/caixa_de_som_bluetooth_eclipse_boom.jpg",
+            "destaque": false
+        },
+        {
+            "id": 26,
+            "nome": "Monitor Lumen 24\" Full HD 75Hz",
+            "preco": 749.0,
+            "categoria": "Monitores",
+            "descricao": "Monitor IPS de 24 polegadas com bordas finas e tecnologia de proteção ocular.",
+            "marca": "Lumen",
+            "imagem": "caminho/para/imagem/monitor_lumen_24_full_hd_75hz.jpg",
+            "destaque": false
+        },
+        {
+            "id": 27,
+            "nome": "Monitor Lumen 27\" QHD 165Hz",
+            "preco": 1699.0,
+            "categoria": "Monitores",
+            "descricao": "Monitor de 27 polegadas com resolução QHD e taxa de atualização de 165Hz.",
+            "marca": "Lumen",
+            "imagem": "caminho/para/imagem/monitor_lumen_27_qhd_165hz.jpg",
+            "destaque": false
+        },
+        {
+            "id": 28,
+            "nome": "Monitor Curvo Eclipse 32\"",
+            "preco": 1999.9,
+            "categoria": "Monitores",
+            "descricao": "Monitor curvo de 32 polegadas com painel VA e experiência imersiva.",
+            "marca": "Eclipse",
+            "imagem": "caminho/para/imagem/monitor_curvo_eclipse_32.jpg",
+            "destaque": false
+        },
+        {
+            "id": 29,
+            "nome": "Monitor Portátil Orbit 15.6\"",
+            "preco": 899.0,
+            "categoria": "Monitores",
+            "descricao": "Monitor portátil Full HD alimentado por USB-C, ideal para trabalho em qualquer lugar.",
+            "marca": "Orbit",
+            "imagem": "caminho/para/imagem/monitor_portatil_orbit_15_6.jpg",
+            "destaque": false
+        },
+        {
+            "id": 30,
+            "nome": "Monitor Ultrawide Zenith 34\"",
+            "preco": 2899.0,
+            "categoria": "Monitores",
+            "descricao": "Monitor ultrawide de 34 polegadas para produtividade e edição de vídeo.",
+            "marca": "Zenith",
+            "imagem": "caminho/para/imagem/monitor_ultrawide_zenith_34.jpg",
+            "destaque": false
+        },
+        {
+            "id": 31,
+            "nome": "Monitor Gamer Eclipse 24\" 144Hz",
+            "preco": 999.0,
+            "categoria": "Monitores",
+            "descricao": "Monitor gamer com 144Hz e tempo de resposta de 1ms.",
+            "marca": "Eclipse",
+            "imagem": "caminho/para/imagem/monitor_gamer_eclipse_24_144hz.jpg",
+            "destaque": false
+        },
+        {
+            "id": 32,
+            "nome": "Monitor Profissional Lumen 4K 27\"",
+            "preco": 2599.0,
+            "categoria": "Monitores",
+            "descricao": "Monitor 4K com ampla cobertura de cores, indicado para design e fotografia.",
+            "marca": "Lumen",
+            "imagem": "caminho/para/imagem/monitor_profissional_lumen_4k_27.jpg",
+            "destaque": false
+        },
+        {
+            "id": 33,
+            "nome": "Suporte Articulado Orbit para Monitor",
+            "preco": 229.9,
+            "categoria": "Monitores",
+            "descricao": "Braço articulado com ajuste de altura e inclinação, compatível com monitores de até 32 polegadas.",
+            "marca": "Orbit",
+            "imagem": "caminho/para/imagem/suporte_articulado_orbit_para_monitor.jpg",
+            "destaque": false
+        },
+        {
+            "id": 34,
+            "nome": "Roteador Wi-Fi 6 Nimbus AX3000",
+            "preco": 429.9,
+            "categoria": "Redes",
+            "descricao": "Roteador Wi-Fi 6 de banda dupla com quatro antenas e portas Gigabit.",
+            "marca": "Nimbus",
+            "imagem": "caminho/para/imagem/roteador_wi_fi_6_nimbus_ax3000.jpg",
+            "destaque": false
+        },
+        {
+            "id": 35,
+            "nome": "Switch Gigabit Atlas 8 Portas",
+            "preco": 159.9,
+            "categoria": "Redes",
+            "descricao": "Switch não gerenciável com oito portas Gigabit e instalação plug and play.",
+            "marca": "Atlas",
+            "imagem": "caminho/para/imagem/switch_gigabit_atlas_8_portas.jpg",
+            "destaque": false
+        },
+        {
+            "id": 36,
+            "nome": "Placa de Rede Wi-Fi Atlas PCIe",
+            "preco": 129.9,
+            "categoria": "Redes",
+            "descricao": "Placa PCIe com Wi-Fi 6 e Bluetooth 5.2 para desktops.",
+            "marca": "Atlas",
+            "imagem": "caminho/para/imagem/placa_de_rede_wi_fi_atlas_pcie.jpg",
+            "destaque": false
+        },
+        {
+            "id": 37,
+            "nome": "Repetidor de Sinal Orbit Mesh",
+            "preco": 249.0,
+            "categoria": "Redes",
+            "descricao": "Repetidor mesh que amplia a cobertura da rede Wi-Fi em toda a casa.",
+            "marca": "Orbit",
+            "imagem": "caminho/para/imagem/repetidor_de_sinal_orbit_mesh.jpg",
+            "destaque": false
+        },
+        {
+            "id": 38,
+            "nome": "Cabo de Rede Cat6 Atlas 10m",
+            "preco": 39.9,
+            "categoria": "Redes",
+            "descricao": "Cabo de rede Cat6 de 10 metros com conectores blindados.",
+            "marca": "Atlas",
+            "imagem": "caminho/para/imagem/cabo_de_rede_cat6_atlas_10m.jpg",
+            "destaque": false
+        },
+        {
+            "id": 39,
+            "nome": "Access Point Nimbus PoE",
+            "preco": 599.0,
+            "categoria": "Redes",
+            "descricao": "Access point Wi-Fi 6 com alimentação PoE, para ambientes corporativos.",
+            "marca": "Nimbus",
+            "imagem": "caminho/para/imagem/access_point_nimbus_poe.jpg",
+            "destaque": false
+        },
+        {
+            "id": 40,
+            "nome": "Adaptador USB Wi-Fi Orbit",
+            "preco": 89.9,
+            "categoria": "Redes",
+            "descricao": "Adaptador USB Wi-Fi de banda dupla com antena de alto ganho.",
+            "marca": "Orbit",
+            "imagem": "caminho/para/imagem/adaptador_usb_wi_fi_orbit.jpg",
+            "destaque": false
+        }
+    ]
+}

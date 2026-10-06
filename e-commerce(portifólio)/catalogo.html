@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo completo de produtos de tecnologia, com busca por nome, filtro por categoria e ordenação por preço.">
+    <title>Catálogo de Produtos | Meu E-commerce</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🛒%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="cabecalho-principal">
+        <div class="logo-e-menu">
+            <a class="marca" href="index.html">Meu E-commerce</a>
+            <nav class="menu-principal" aria-label="Navegação principal">
+                <a href="index.html">Início</a>
+                <a href="catalogo.html" aria-current="page">Catálogo</a>
+            </nav>
+        </div>
+        <button type="button" class="btn-carrinho" id="btn-abrir-carrinho" aria-controls="carrinho-lateral" aria-expanded="false">
+            <span aria-hidden="true">🛒</span> Carrinho
+            <span class="contador-carrinho" id="contador-carrinho">0</span>
+            <span class="sr-only">itens no carrinho</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="apresentacao">
+            <h1>Catálogo de Produtos</h1>
+            <p>Confira nossos produtos e aproveite as ofertas especiais.</p>
+        </section>
+
+        <section id="controles-catalogo" class="controles-catalogo" aria-label="Busca, filtro e ordenação">
+            <div class="campo campo-busca">
+                <label for="busca-nome">Pesquisar produto</label>
+                <input type="search" id="busca-nome" placeholder="Ex.: teclado" autocomplete="off">
+            </div>
+
+            <div class="campo">
+                <label for="filtro-categoria">Categoria</label>
+                <select id="filtro-categoria">
+                    <option value="todas">Todas</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="ordenacao">Ordenar por</label>
+                <select id="ordenacao">
+                    <option value="padrao">Padrão</option>
+                    <option value="menor-preco">Menor preço</option>
+                    <option value="maior-preco">Maior preço</option>
+                </select>
+            </div>
+        </section>
+
+        <div id="vitrine-catalogo" class="vitrine" aria-live="polite"></div>
+
+        <nav id="paginacao" class="paginacao" aria-label="Paginação do catálogo"></nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Meu E-commerce. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- O carrinho lateral é montado dinamicamente por js/carrinho.js -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
